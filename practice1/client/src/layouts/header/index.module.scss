@@ -1,0 +1,63 @@
+.navbar{
+    border-bottom: 1px solid rgb(223, 223, 223);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    align-items: center;
+    gap: 100px;
+    .inp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        color: gray;
+        input{
+            border: none;
+            font-size: 17px;
+            outline: none;
+        }
+    }
+
+    .logo{
+        border: 2px solid black;
+        padding: 3px 20px;
+        h2{
+            font-weight: 300;
+            font-size: 22px;
+        }
+        cursor: pointer;
+    }
+
+    .icons{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: gray;
+        gap: 20px;
+        i{
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        padding: 20px;
+        li{
+            a{
+                font-size: 17px;
+                color: black;
+            }
+        }
+    }
+}

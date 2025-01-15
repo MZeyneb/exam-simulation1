@@ -1,0 +1,16 @@
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    .product-detail{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        h3,p{
+            text-align: center;
+        }
+
+    }
+}
